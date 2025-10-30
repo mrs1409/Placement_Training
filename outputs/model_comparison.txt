@@ -1,0 +1,13 @@
+Model comparison results
+
+-- base model --
+Linear R2: 0.8633, RF R2: 0.8188
+
+-- extended model --
+Linear R2: 0.8608, RF R2: 0.8316
+
+Specific analyses:
+studytime-G3 Pearson corr: 0.2498
+Avg G3 difference (high vs low parental education): 1.466
+Absences corr: -0.0914, slope per absence: -0.0636, drop per 10 absences: -0.6361
+Std linear coefs -> studytime: 0.08406206033637732, failures: -0.09777698899142397

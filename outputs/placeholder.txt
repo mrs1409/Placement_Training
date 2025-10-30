@@ -1,0 +1,1 @@
+This folder will contain outputs from running the analysis script (plots, models, summary).
