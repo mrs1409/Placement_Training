@@ -114,7 +114,12 @@ group_members = [
 for member in group_members:
     elements.append(Paragraph(member, styles['BodyText']))
     elements.append(Spacer(1, 0.05*inch))
-elements.append(Spacer(1, 0.25*inch))
+elements.append(Spacer(1, 0.15*inch))
+
+# GitHub Repository Link
+github_link = '<link href="https://github.com/mrs1409/Placement_Training" color="blue">https://github.com/mrs1409/Placement_Training</link>'
+elements.append(Paragraph(f"<b>GitHub Repository:</b> {github_link}", styles['BodyText']))
+elements.append(Spacer(1, 0.2*inch))
 
 # Metadata table
 meta_data = [
